@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to add points; shake to reset" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-sn-Xn0">
-                                        <rect key="frame" x="2" y="2" width="170" height="14"/>
+                                        <rect key="frame" x="2" y="22" width="170" height="14"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -31,7 +31,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstItem="ebv-sn-Xn0" firstAttribute="top" secondItem="zzt-oM-CP0" secondAttribute="top" constant="2" id="cje-Pr-mTp"/>
+                                    <constraint firstItem="ebv-sn-Xn0" firstAttribute="top" secondItem="zzt-oM-CP0" secondAttribute="top" constant="22" id="3Gf-Ab-MVy"/>
                                     <constraint firstItem="ebv-sn-Xn0" firstAttribute="leading" secondItem="zzt-oM-CP0" secondAttribute="leading" constant="2" id="isd-4Z-WYa"/>
                                 </constraints>
                                 <connections>

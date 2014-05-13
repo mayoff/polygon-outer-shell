@@ -21,6 +21,9 @@
 		31AFA6CD1922B3B700071710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6AF1922B3B700071710 /* UIKit.framework */; };
 		31AFA6D51922B3B700071710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31AFA6D31922B3B700071710 /* InfoPlist.strings */; };
 		31AFA6D71922B3B700071710 /* polygonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6D61922B3B700071710 /* polygonTests.m */; };
+		31AFA6E41922B3F400071710 /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6E11922B3F400071710 /* clipper.cpp */; };
+		31AFA6E81922B50300071710 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6E71922B50300071710 /* DrawView.m */; };
+		31AFA6EB1922B82200071710 /* NSArray+getPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6EA1922B82200071710 /* NSArray+getPoints.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,13 @@
 		31AFA6D21922B3B700071710 /* polygonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "polygonTests-Info.plist"; sourceTree = "<group>"; };
 		31AFA6D41922B3B700071710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31AFA6D61922B3B700071710 /* polygonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = polygonTests.m; sourceTree = "<group>"; };
+		31AFA6E11922B3F400071710 /* clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clipper.cpp; path = ../../../../../Downloads/clipper_ver6.1.3a/cpp/clipper.cpp; sourceTree = "<group>"; };
+		31AFA6E21922B3F400071710 /* clipper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = clipper.hpp; path = ../../../../../Downloads/clipper_ver6.1.3a/cpp/clipper.hpp; sourceTree = "<group>"; };
+		31AFA6E31922B3F400071710 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = License.txt; path = ../../../../../Downloads/clipper_ver6.1.3a/License.txt; sourceTree = "<group>"; };
+		31AFA6E61922B50300071710 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		31AFA6E71922B50300071710 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		31AFA6E91922B82200071710 /* NSArray+getPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+getPoints.h"; sourceTree = "<group>"; };
+		31AFA6EA1922B82200071710 /* NSArray+getPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+getPoints.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,7 @@
 		31AFA6B11922B3B700071710 /* polygon */ = {
 			isa = PBXGroup;
 			children = (
+				31AFA6E01922B3D200071710 /* Clipper */,
 				31AFA6BA1922B3B700071710 /* AppDelegate.h */,
 				31AFA6BB1922B3B700071710 /* AppDelegate.m */,
 				31AFA6BD1922B3B700071710 /* Main.storyboard */,
@@ -119,6 +130,10 @@
 				31AFA6C11922B3B700071710 /* ViewController.m */,
 				31AFA6C31922B3B700071710 /* Images.xcassets */,
 				31AFA6B21922B3B700071710 /* Supporting Files */,
+				31AFA6E61922B50300071710 /* DrawView.h */,
+				31AFA6E71922B50300071710 /* DrawView.m */,
+				31AFA6E91922B82200071710 /* NSArray+getPoints.h */,
+				31AFA6EA1922B82200071710 /* NSArray+getPoints.m */,
 			);
 			path = polygon;
 			sourceTree = "<group>";
@@ -150,6 +165,16 @@
 				31AFA6D31922B3B700071710 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31AFA6E01922B3D200071710 /* Clipper */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6E11922B3F400071710 /* clipper.cpp */,
+				31AFA6E21922B3F400071710 /* clipper.hpp */,
+				31AFA6E31922B3F400071710 /* License.txt */,
+			);
+			path = Clipper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +277,9 @@
 				31AFA6C21922B3B700071710 /* ViewController.m in Sources */,
 				31AFA6BC1922B3B700071710 /* AppDelegate.m in Sources */,
 				31AFA6B81922B3B700071710 /* main.m in Sources */,
+				31AFA6E41922B3F400071710 /* clipper.cpp in Sources */,
+				31AFA6EB1922B82200071710 /* NSArray+getPoints.m in Sources */,
+				31AFA6E81922B50300071710 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +484,7 @@
 				31AFA6DC1922B3B700071710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31AFA6DD1922B3B700071710 /* Build configuration list for PBXNativeTarget "polygonTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +493,7 @@
 				31AFA6DF1922B3B700071710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

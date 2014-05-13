@@ -37,7 +37,7 @@
 - (void)initLayer {
     self.layer.lineJoin = kCALineJoinRound;
     self.layer.lineWidth = 2;
-    self.layer.fillColor = nil;
+    self.layer.fillColor = [UIColor colorWithRed:1 green:0.9 blue:0.9 alpha:1].CGColor;
     self.layer.strokeColor = [UIColor blackColor].CGColor;
 }
 

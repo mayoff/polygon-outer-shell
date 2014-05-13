@@ -25,7 +25,7 @@
                                     <outletCollection property="gestureRecognizers" destination="V1L-U7-hFc" appends="YES" id="wSO-ap-x7x"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-QL-Lng">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-QL-Lng" customClass="UnionView">
                                 <rect key="frame" x="0.0" y="189" width="320" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.8390061432504039" green="1" blue="0.84567577498984126" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,6 +54,7 @@
                     </view>
                     <connections>
                         <outlet property="drawView" destination="zzt-oM-CP0" id="Gq7-VR-MjZ"/>
+                        <outlet property="middleView" destination="8pt-QL-Lng" id="F8E-b2-Psr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

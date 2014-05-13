@@ -13,6 +13,7 @@
 @interface ViewController ()
 
 @property (nonatomic, strong) IBOutlet DrawView *drawView;
+@property (strong, nonatomic) IBOutlet PathView *middleView;
 @property (nonatomic, strong, readonly) NSMutableArray *points;
 
 @end
@@ -54,6 +55,7 @@
     CGPoint const *points = self.points.rawPoints;
     NSUInteger count = self.points.count;
     [self.drawView updateWithPoints:points count:count];
+    [self.middleView updateWithPoints:points count:count];
 }
 
 @end

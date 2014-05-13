@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DrawView.h"
+#import "NSArray+getPoints.h"
 
 @interface ViewController ()
 
@@ -50,7 +51,9 @@
 }
 
 - (void)updateViews {
-    [self.drawView updateWithPoints:self.points];
+    CGPoint const *points = self.points.rawPoints;
+    NSUInteger count = self.points.count;
+    [self.drawView updateWithPoints:points count:count];
 }
 
 @end

@@ -10,6 +10,6 @@
 
 @interface DrawView : UIView
 
-- (void)updateWithPoints:(NSArray *)points;
+- (void)updateWithPoints:(CGPoint const *)points count:(NSUInteger)count;
 
 @end

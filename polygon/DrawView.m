@@ -7,7 +7,6 @@
 //
 
 #import "DrawView.h"
-#import "NSArray+getPoints.h"
 
 @interface DrawView ()
 
@@ -29,16 +28,16 @@
     self.layer.strokeColor = [UIColor blackColor].CGColor;
 }
 
-- (void)updateWithPoints:(NSArray *)points {
-    switch (points.count) {
+- (void)updateWithPoints:(CGPoint const *)points count:(NSUInteger)count {
+    switch (count) {
         case 0:
             [self updateWithNoPoints];
             break;
         case 1:
-            [self updateWithOnePoint:points.rawPoints[0]];
+            [self updateWithOnePoint:points[0]];
             break;
         default:
-            [self updateWithManyPoints:points];
+            [self updateWithManyPoints:points count:count];
             break;
     }
 }
@@ -55,9 +54,9 @@
     self.layer.path = path.CGPath;
 }
 
-- (void)updateWithManyPoints:(NSArray *)points {
+- (void)updateWithManyPoints:(CGPoint const *)points count:(NSUInteger)count {
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathAddLines(path, NULL, points.rawPoints, points.count);
+    CGPathAddLines(path, NULL, points, count);
     CGPathCloseSubpath(path);
     self.layer.path = path;
     CGPathRelease(path);

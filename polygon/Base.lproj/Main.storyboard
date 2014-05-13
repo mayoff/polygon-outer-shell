@@ -19,8 +19,21 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zzt-oM-CP0" customClass="DrawView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to add points; shake to reset" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-sn-Xn0">
+                                        <rect key="frame" x="2" y="2" width="170" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="ebv-sn-Xn0" firstAttribute="top" secondItem="zzt-oM-CP0" secondAttribute="top" constant="2" id="cje-Pr-mTp"/>
+                                    <constraint firstItem="ebv-sn-Xn0" firstAttribute="leading" secondItem="zzt-oM-CP0" secondAttribute="leading" constant="2" id="isd-4Z-WYa"/>
+                                </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="V1L-U7-hFc" appends="YES" id="wSO-ap-x7x"/>
                                 </connections>
@@ -28,12 +41,38 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-QL-Lng" customClass="UnionView">
                                 <rect key="frame" x="0.0" y="189" width="320" height="190"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple union" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG8-ad-TJq">
+                                        <rect key="frame" x="2" y="2" width="67" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.8390061432504039" green="1" blue="0.84567577498984126" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="lG8-ad-TJq" firstAttribute="leading" secondItem="8pt-QL-Lng" secondAttribute="leading" constant="2" id="eIM-zz-a54"/>
+                                    <constraint firstItem="lG8-ad-TJq" firstAttribute="top" secondItem="8pt-QL-Lng" secondAttribute="top" constant="2" id="xeJ-n5-cNZ"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9o-Ui-Uz1" customClass="DeepUnionView">
                                 <rect key="frame" x="0.0" y="379" width="320" height="189"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deep union" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBk-dR-5mG">
+                                        <rect key="frame" x="2" y="2" width="59" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.92209140757609998" blue="0.75498170992974578" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="BBk-dR-5mG" firstAttribute="leading" secondItem="S9o-Ui-Uz1" secondAttribute="leading" constant="2" id="R6G-R1-xQr"/>
+                                    <constraint firstItem="BBk-dR-5mG" firstAttribute="top" secondItem="S9o-Ui-Uz1" secondAttribute="top" constant="2" id="VPY-JW-zQH"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

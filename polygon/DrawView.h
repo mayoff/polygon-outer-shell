@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PathView.h"
 
-@interface DrawView : UIView
-
-- (void)updateWithPoints:(CGPoint const *)points count:(NSUInteger)count;
+@interface DrawView : PathView
 
 @end

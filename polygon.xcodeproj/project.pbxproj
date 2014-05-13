@@ -24,6 +24,7 @@
 		31AFA6E41922B3F400071710 /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6E11922B3F400071710 /* clipper.cpp */; };
 		31AFA6E81922B50300071710 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6E71922B50300071710 /* DrawView.m */; };
 		31AFA6EB1922B82200071710 /* NSArray+getPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6EA1922B82200071710 /* NSArray+getPoints.m */; };
+		31AFA6F11922BE2100071710 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6F01922BE2100071710 /* PathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		31AFA6E71922B50300071710 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		31AFA6E91922B82200071710 /* NSArray+getPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+getPoints.h"; sourceTree = "<group>"; };
 		31AFA6EA1922B82200071710 /* NSArray+getPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+getPoints.m"; sourceTree = "<group>"; };
+		31AFA6EF1922BE2100071710 /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		31AFA6F01922BE2100071710 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				31AFA6E71922B50300071710 /* DrawView.m */,
 				31AFA6E91922B82200071710 /* NSArray+getPoints.h */,
 				31AFA6EA1922B82200071710 /* NSArray+getPoints.m */,
+				31AFA6EF1922BE2100071710 /* PathView.h */,
+				31AFA6F01922BE2100071710 /* PathView.m */,
 			);
 			path = polygon;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				31AFA6B81922B3B700071710 /* main.m in Sources */,
 				31AFA6E41922B3F400071710 /* clipper.cpp in Sources */,
 				31AFA6EB1922B82200071710 /* NSArray+getPoints.m in Sources */,
+				31AFA6F11922BE2100071710 /* PathView.m in Sources */,
 				31AFA6E81922B50300071710 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

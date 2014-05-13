@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong) IBOutlet DrawView *drawView;
 @property (strong, nonatomic) IBOutlet PathView *middleView;
+@property (strong, nonatomic) IBOutlet PathView *bottomView;
 @property (nonatomic, strong, readonly) NSMutableArray *points;
 
 @end
@@ -56,6 +57,7 @@
     NSUInteger count = self.points.count;
     [self.drawView updateWithPoints:points count:count];
     [self.middleView updateWithPoints:points count:count];
+    [self.bottomView updateWithPoints:points count:count];
 }
 
 @end

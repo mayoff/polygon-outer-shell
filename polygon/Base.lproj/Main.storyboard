@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.8390061432504039" green="1" blue="0.84567577498984126" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9o-Ui-Uz1">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9o-Ui-Uz1" customClass="DeepUnionView">
                                 <rect key="frame" x="0.0" y="379" width="320" height="189"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="0.92209140757609998" blue="0.75498170992974578" alpha="1" colorSpace="calibratedRGB"/>
@@ -53,6 +53,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomView" destination="S9o-Ui-Uz1" id="0Ye-XH-A1M"/>
                         <outlet property="drawView" destination="zzt-oM-CP0" id="Gq7-VR-MjZ"/>
                         <outlet property="middleView" destination="8pt-QL-Lng" id="F8E-b2-Psr"/>
                     </connections>

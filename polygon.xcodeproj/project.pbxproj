@@ -26,6 +26,7 @@
 		31AFA6EB1922B82200071710 /* NSArray+getPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6EA1922B82200071710 /* NSArray+getPoints.m */; };
 		31AFA6F11922BE2100071710 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6F01922BE2100071710 /* PathView.m */; };
 		31AFA6F41922C00F00071710 /* UnionView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6F31922C00F00071710 /* UnionView.mm */; };
+		31B5F89C1922C37C00F90EE8 /* DeepUnionView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31B5F89B1922C37C00F90EE8 /* DeepUnionView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		31AFA6F01922BE2100071710 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 		31AFA6F21922C00F00071710 /* UnionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionView.h; sourceTree = "<group>"; };
 		31AFA6F31922C00F00071710 /* UnionView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnionView.mm; sourceTree = "<group>"; };
+		31B5F89A1922C37C00F90EE8 /* DeepUnionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepUnionView.h; sourceTree = "<group>"; };
+		31B5F89B1922C37C00F90EE8 /* DeepUnionView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DeepUnionView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				31AFA6F01922BE2100071710 /* PathView.m */,
 				31AFA6F21922C00F00071710 /* UnionView.h */,
 				31AFA6F31922C00F00071710 /* UnionView.mm */,
+				31B5F89A1922C37C00F90EE8 /* DeepUnionView.h */,
+				31B5F89B1922C37C00F90EE8 /* DeepUnionView.mm */,
 			);
 			path = polygon;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				31AFA6F41922C00F00071710 /* UnionView.mm in Sources */,
 				31AFA6B81922B3B700071710 /* main.m in Sources */,
 				31AFA6E41922B3F400071710 /* clipper.cpp in Sources */,
+				31B5F89C1922C37C00F90EE8 /* DeepUnionView.mm in Sources */,
 				31AFA6EB1922B82200071710 /* NSArray+getPoints.m in Sources */,
 				31AFA6F11922BE2100071710 /* PathView.m in Sources */,
 				31AFA6E81922B50300071710 /* DrawView.m in Sources */,

@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31AFA6AC1922B3B700071710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6AB1922B3B700071710 /* Foundation.framework */; };
+		31AFA6AE1922B3B700071710 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6AD1922B3B700071710 /* CoreGraphics.framework */; };
+		31AFA6B01922B3B700071710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6AF1922B3B700071710 /* UIKit.framework */; };
+		31AFA6B61922B3B700071710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31AFA6B41922B3B700071710 /* InfoPlist.strings */; };
+		31AFA6B81922B3B700071710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6B71922B3B700071710 /* main.m */; };
+		31AFA6BC1922B3B700071710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6BB1922B3B700071710 /* AppDelegate.m */; };
+		31AFA6BF1922B3B700071710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AFA6BD1922B3B700071710 /* Main.storyboard */; };
+		31AFA6C21922B3B700071710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6C11922B3B700071710 /* ViewController.m */; };
+		31AFA6C41922B3B700071710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AFA6C31922B3B700071710 /* Images.xcassets */; };
+		31AFA6CB1922B3B700071710 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6CA1922B3B700071710 /* XCTest.framework */; };
+		31AFA6CC1922B3B700071710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6AB1922B3B700071710 /* Foundation.framework */; };
+		31AFA6CD1922B3B700071710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AFA6AF1922B3B700071710 /* UIKit.framework */; };
+		31AFA6D51922B3B700071710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31AFA6D31922B3B700071710 /* InfoPlist.strings */; };
+		31AFA6D71922B3B700071710 /* polygonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFA6D61922B3B700071710 /* polygonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31AFA6CE1922B3B700071710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AFA6A01922B3B700071710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AFA6A71922B3B700071710;
+			remoteInfo = polygon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31AFA6A81922B3B700071710 /* polygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polygon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AFA6AB1922B3B700071710 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31AFA6AD1922B3B700071710 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31AFA6AF1922B3B700071710 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31AFA6B31922B3B700071710 /* polygon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "polygon-Info.plist"; sourceTree = "<group>"; };
+		31AFA6B51922B3B700071710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31AFA6B71922B3B700071710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31AFA6B91922B3B700071710 /* polygon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "polygon-Prefix.pch"; sourceTree = "<group>"; };
+		31AFA6BA1922B3B700071710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31AFA6BB1922B3B700071710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31AFA6BE1922B3B700071710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31AFA6C01922B3B700071710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31AFA6C11922B3B700071710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31AFA6C31922B3B700071710 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31AFA6C91922B3B700071710 /* polygonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polygonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AFA6CA1922B3B700071710 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		31AFA6D21922B3B700071710 /* polygonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "polygonTests-Info.plist"; sourceTree = "<group>"; };
+		31AFA6D41922B3B700071710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31AFA6D61922B3B700071710 /* polygonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = polygonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AFA6A51922B3B700071710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AFA6AE1922B3B700071710 /* CoreGraphics.framework in Frameworks */,
+				31AFA6B01922B3B700071710 /* UIKit.framework in Frameworks */,
+				31AFA6AC1922B3B700071710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AFA6C61922B3B700071710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AFA6CB1922B3B700071710 /* XCTest.framework in Frameworks */,
+				31AFA6CD1922B3B700071710 /* UIKit.framework in Frameworks */,
+				31AFA6CC1922B3B700071710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31AFA69F1922B3B700071710 = {
+			isa = PBXGroup;
+			children = (
+				31AFA6B11922B3B700071710 /* polygon */,
+				31AFA6D01922B3B700071710 /* polygonTests */,
+				31AFA6AA1922B3B700071710 /* Frameworks */,
+				31AFA6A91922B3B700071710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31AFA6A91922B3B700071710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6A81922B3B700071710 /* polygon.app */,
+				31AFA6C91922B3B700071710 /* polygonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31AFA6AA1922B3B700071710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6AB1922B3B700071710 /* Foundation.framework */,
+				31AFA6AD1922B3B700071710 /* CoreGraphics.framework */,
+				31AFA6AF1922B3B700071710 /* UIKit.framework */,
+				31AFA6CA1922B3B700071710 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31AFA6B11922B3B700071710 /* polygon */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6BA1922B3B700071710 /* AppDelegate.h */,
+				31AFA6BB1922B3B700071710 /* AppDelegate.m */,
+				31AFA6BD1922B3B700071710 /* Main.storyboard */,
+				31AFA6C01922B3B700071710 /* ViewController.h */,
+				31AFA6C11922B3B700071710 /* ViewController.m */,
+				31AFA6C31922B3B700071710 /* Images.xcassets */,
+				31AFA6B21922B3B700071710 /* Supporting Files */,
+			);
+			path = polygon;
+			sourceTree = "<group>";
+		};
+		31AFA6B21922B3B700071710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6B31922B3B700071710 /* polygon-Info.plist */,
+				31AFA6B41922B3B700071710 /* InfoPlist.strings */,
+				31AFA6B71922B3B700071710 /* main.m */,
+				31AFA6B91922B3B700071710 /* polygon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31AFA6D01922B3B700071710 /* polygonTests */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6D61922B3B700071710 /* polygonTests.m */,
+				31AFA6D11922B3B700071710 /* Supporting Files */,
+			);
+			path = polygonTests;
+			sourceTree = "<group>";
+		};
+		31AFA6D11922B3B700071710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31AFA6D21922B3B700071710 /* polygonTests-Info.plist */,
+				31AFA6D31922B3B700071710 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31AFA6A71922B3B700071710 /* polygon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AFA6DA1922B3B700071710 /* Build configuration list for PBXNativeTarget "polygon" */;
+			buildPhases = (
+				31AFA6A41922B3B700071710 /* Sources */,
+				31AFA6A51922B3B700071710 /* Frameworks */,
+				31AFA6A61922B3B700071710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polygon;
+			productName = polygon;
+			productReference = 31AFA6A81922B3B700071710 /* polygon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31AFA6C81922B3B700071710 /* polygonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AFA6DD1922B3B700071710 /* Build configuration list for PBXNativeTarget "polygonTests" */;
+			buildPhases = (
+				31AFA6C51922B3B700071710 /* Sources */,
+				31AFA6C61922B3B700071710 /* Frameworks */,
+				31AFA6C71922B3B700071710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AFA6CF1922B3B700071710 /* PBXTargetDependency */,
+			);
+			name = polygonTests;
+			productName = polygonTests;
+			productReference = 31AFA6C91922B3B700071710 /* polygonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31AFA6A01922B3B700071710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rob Mayoff";
+				TargetAttributes = {
+					31AFA6C81922B3B700071710 = {
+						TestTargetID = 31AFA6A71922B3B700071710;
+					};
+				};
+			};
+			buildConfigurationList = 31AFA6A31922B3B700071710 /* Build configuration list for PBXProject "polygon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31AFA69F1922B3B700071710;
+			productRefGroup = 31AFA6A91922B3B700071710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AFA6A71922B3B700071710 /* polygon */,
+				31AFA6C81922B3B700071710 /* polygonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31AFA6A61922B3B700071710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AFA6C41922B3B700071710 /* Images.xcassets in Resources */,
+				31AFA6B61922B3B700071710 /* InfoPlist.strings in Resources */,
+				31AFA6BF1922B3B700071710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AFA6C71922B3B700071710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AFA6D51922B3B700071710 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31AFA6A41922B3B700071710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AFA6C21922B3B700071710 /* ViewController.m in Sources */,
+				31AFA6BC1922B3B700071710 /* AppDelegate.m in Sources */,
+				31AFA6B81922B3B700071710 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AFA6C51922B3B700071710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AFA6D71922B3B700071710 /* polygonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AFA6CF1922B3B700071710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AFA6A71922B3B700071710 /* polygon */;
+			targetProxy = 31AFA6CE1922B3B700071710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31AFA6B41922B3B700071710 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AFA6B51922B3B700071710 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31AFA6BD1922B3B700071710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AFA6BE1922B3B700071710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31AFA6D31922B3B700071710 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AFA6D41922B3B700071710 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31AFA6D81922B3B700071710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31AFA6D91922B3B700071710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31AFA6DB1922B3B700071710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "polygon/polygon-Prefix.pch";
+				INFOPLIST_FILE = "polygon/polygon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31AFA6DC1922B3B700071710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "polygon/polygon-Prefix.pch";
+				INFOPLIST_FILE = "polygon/polygon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		31AFA6DE1922B3B700071710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/polygon.app/polygon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "polygon/polygon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "polygonTests/polygonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		31AFA6DF1922B3B700071710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/polygon.app/polygon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "polygon/polygon-Prefix.pch";
+				INFOPLIST_FILE = "polygonTests/polygonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31AFA6A31922B3B700071710 /* Build configuration list for PBXProject "polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AFA6D81922B3B700071710 /* Debug */,
+				31AFA6D91922B3B700071710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AFA6DA1922B3B700071710 /* Build configuration list for PBXNativeTarget "polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AFA6DB1922B3B700071710 /* Debug */,
+				31AFA6DC1922B3B700071710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31AFA6DD1922B3B700071710 /* Build configuration list for PBXNativeTarget "polygonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AFA6DE1922B3B700071710 /* Debug */,
+				31AFA6DF1922B3B700071710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31AFA6A01922B3B700071710 /* Project object */;
+}

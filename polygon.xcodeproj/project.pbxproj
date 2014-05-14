@@ -60,9 +60,9 @@
 		31AFA6D21922B3B700071710 /* polygonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "polygonTests-Info.plist"; sourceTree = "<group>"; };
 		31AFA6D41922B3B700071710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31AFA6D61922B3B700071710 /* polygonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = polygonTests.m; sourceTree = "<group>"; };
-		31AFA6E11922B3F400071710 /* clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clipper.cpp; path = ../../../../../Downloads/clipper_ver6.1.3a/cpp/clipper.cpp; sourceTree = "<group>"; };
-		31AFA6E21922B3F400071710 /* clipper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = clipper.hpp; path = ../../../../../Downloads/clipper_ver6.1.3a/cpp/clipper.hpp; sourceTree = "<group>"; };
-		31AFA6E31922B3F400071710 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = License.txt; path = ../../../../../Downloads/clipper_ver6.1.3a/License.txt; sourceTree = "<group>"; };
+		31AFA6E11922B3F400071710 /* clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clipper.cpp; sourceTree = "<group>"; };
+		31AFA6E21922B3F400071710 /* clipper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clipper.hpp; sourceTree = "<group>"; };
+		31AFA6E31922B3F400071710 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		31AFA6E61922B50300071710 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		31AFA6E71922B50300071710 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		31AFA6E91922B82200071710 /* NSArray+getPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+getPoints.h"; sourceTree = "<group>"; };
